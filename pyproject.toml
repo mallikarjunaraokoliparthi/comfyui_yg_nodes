@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/mallikarjunaraokoliparthi/comfyui_yg_nodes"
 
 [tool.comfy]
-PublisherId = "mallikarjunaraokoliparthi"
+PublisherId = "kmrao"
 DisplayName = "YG Custom Nodes"
 Icon = ""
