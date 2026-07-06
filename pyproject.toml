@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_yg_nodes"
+description = "Utility custom nodes for ComfyUI: image cycling, ZIP image loading/saving, video collection, and VRAM cleanup."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/mallikarjunaraokoliparthi/comfyui_yg_nodes"
+
+[tool.comfy]
+PublisherId = "mallikarjunaraokoliparthi"
+DisplayName = "YG Custom Nodes"
+Icon = ""
