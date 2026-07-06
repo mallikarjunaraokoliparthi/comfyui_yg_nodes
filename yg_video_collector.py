@@ -240,7 +240,8 @@ async def delete_videos(request):
             continue
         try:
             if os.path.isfile(real):
-                os.remove(real); removed.append(n)
+                os.remove(real)
+                removed.append(n)
             tp = os.path.join(folder, "_thumbs", n + ".jpg")
             if os.path.isfile(tp):
                 os.remove(tp)
@@ -265,8 +266,11 @@ async def clear_collection(request):
     for n in os.listdir(folder):
         p = os.path.join(folder, n)
         if os.path.isfile(p):
-            try: os.remove(p); removed += 1
-            except Exception: pass
+            try:
+                os.remove(p)
+                removed += 1
+            except Exception:
+                pass
     tdir = os.path.join(folder, "_thumbs")
     if os.path.isdir(tdir):
         for n in os.listdir(tdir):

@@ -225,7 +225,8 @@ async def yg_cycler_clear(request):
         p = os.path.join(dest, n)
         try:
             if os.path.isfile(p):
-                os.remove(p); removed += 1
+                os.remove(p)
+                removed += 1
         except Exception:
             pass
     with _STATE_LOCK:
