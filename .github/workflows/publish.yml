@@ -15,7 +15,7 @@ jobs:
   publish-node:
     name: Publish Custom Node to Registry
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'kmrao' }}   # <-- మీ GitHub username/org తో replace చేయండి
+   if: ${{ github.repository_owner == 'mallikarjunaraokoliparthi' }}   # <-- మీ GitHub username/org తో replace చేయండి
     steps:
       - name: Check out code
         uses: actions/checkout@v4
