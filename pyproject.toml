@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_yg_nodes"
 description = "Utility custom nodes for ComfyUI: image cycling, ZIP image loading/saving, video collection, and VRAM cleanup."
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 dependencies = []
 
